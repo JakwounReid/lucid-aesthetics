@@ -36,7 +36,7 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} ${cormorant.variable}`}>
       <body className="antialiased flex flex-col min-h-screen">
         <Header />
-        <main id="main-content" className="flex-1 pt-16">
+        <main id="main-content" className="flex-1">
           {children}
         </main>
         <Footer />
